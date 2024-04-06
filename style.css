@@ -106,10 +106,10 @@
 @media screen and (min-width: 576px) {
   .container {
     background-color: grey;
-    padding-left: 80px;
+    padding-left: 2px;
     display: grid;
     grid-template-columns: 280px 280px;
-    grid-template-rows: 560px 320px 290px 500px 800px;
+    grid-template-rows: 660px 420px 390px 600px 900px;
     gap: 10px;
     overflow-x: hidden;
   }
