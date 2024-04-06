@@ -5,7 +5,7 @@
 }
 .container {
   background-color: grey;
-  padding-left: 30px;
+  padding-left: 40px;
   display: grid;
   grid-template-columns: 280px;
   grid-template-rows: 500px 250px 250px 450px 600px;
@@ -106,11 +106,12 @@
 @media screen and (min-width: 576px) {
   .container {
     background-color: grey;
-    padding-left: 20px;
+    padding-left: 5px;
     display: grid;
     grid-template-columns: 280px 280px;
     grid-template-rows: 460px 220px 190px 350px 500px;
     gap: 10px;
+    overflow-x: hidden;
   }
   .first-box:first-child {
     background-color: hsl(263, 55%, 52%);
@@ -118,7 +119,32 @@
     padding: 20px 20px;
     background-image: url(bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: 170px 0;
+    background-position: 460px 0;
+    border-radius: 20px;
+    grid-column: 1/3;
+  }
+  .second-box:nth-child(2) {
+    background-color: hsl(217, 19%, 35%);
+    padding: 20px 20px;
+    border-radius: 20px;
+    grid-column: 1/3;
+  }
+  .third-box:nth-child(3) {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 20px;
+    border-radius: 20px;
+    grid-column: 1/3;
+  }
+
+  .fourth-box:nth-child(4) {
+    background-color: hsl(219, 29%, 14%);
+    padding: 20px 20px;
+    border-radius: 20px;
+    grid-column: 1/3;
+  }
+  .fifth-box:nth-child(5) {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 20px;
     border-radius: 20px;
     grid-column: 1/3;
   }
