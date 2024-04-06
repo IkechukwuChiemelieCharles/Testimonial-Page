@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: grey;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 280px;
+  grid-template-rows: 460px 220px 190px 350px 500px;
+  gap: 10px;
+}
+.first-box:first-child {
+  background-color: hsl(263, 55%, 52%);
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-image: url(bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 170px 0;
+  border-radius: 20px;
+}
+.second-box:nth-child(2) {
+  background-color: hsl(217, 19%, 35%);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.third-box:nth-child(3) {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.fourth-box:nth-child(4) {
+  background-color: hsl(219, 29%, 14%);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.fifth-box:nth-child(5) {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.img-cont {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+.img-cont img {
+  border-radius: 50px;
+  border: 2px white solid;
+  width: 30px;
+}
+.img-cont p {
+  margin-left: -70px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: rgb(206, 190, 190);
+}
+.img-cont h6 {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+.Subheading {
+  color: white;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 20px;
+  font-weight: lighter;
+  color: rgb(206, 190, 190);
+  font-size: small;
+  line-height: 20px;
+}
+.Subheading2 {
+  margin-top: 10px;
+}
+.text2 {
+  margin-top: 20px;
+  font-weight: lighter;
+  color: rgb(101, 95, 95);
+  font-size: small;
+  line-height: 20px;
+}
+.img-cont .h6 {
+  color: black;
+}
+.img-cont .paragraph {
+  color: black;
+}
+.img-cont .jonathan {
+  margin-left: -82px;
+}
+.img-cont .jean {
+  margin-left: -80px;
+  color: rgb(105, 101, 101);
+}
+.img-cont .patrick {
+  margin-left: -73px;
+}
+.img-cont .kira {
+  margin-left: -60px;
+  color: rgb(105, 101, 101);
+}
+@media screen and (min-width: 576px) {
+  .container {
+    background-color: grey;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 460px 220px 190px 350px 500px;
+    gap: 10px;
+  }
+  .first-box:first-child {
+    background-color: hsl(263, 55%, 52%);
+    margin-top: 20px;
+    padding: 20px 20px;
+    background-image: url(bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 170px 0;
+    border-radius: 20px;
+    grid-column: 1/3;
+  }
+}
