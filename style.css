@@ -155,7 +155,7 @@
     padding-left: 0;
     display: grid;
     grid-template-columns: 280px 280px;
-    grid-template-rows: 660px 420px 390px 700px 900px;
+    grid-template-rows: 660px 420px 390px 900px 1300px;
     gap: 10px;
     overflow-x: hidden;
   }
